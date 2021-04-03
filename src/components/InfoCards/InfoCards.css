@@ -1,0 +1,25 @@
+.App__card {
+  flex: 1;
+}
+
+.App__card:not(:last-child) {
+  margin-right: 15px;
+}
+
+.App__card--selected {
+  border: 2px solid rgb(43, 43, 43);
+}
+
+.Box__cases {
+  color: #202020;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.Box__title {
+  color: #1b1b1b;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  margin-top: 15px !important;
+}

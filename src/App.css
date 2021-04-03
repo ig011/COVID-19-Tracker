@@ -1,0 +1,105 @@
+* {
+  margin: 3px;
+  color: rgb(44, 44, 44);
+}
+
+.test {
+  display: flex;
+  border-radius: 5px;
+}
+
+.App__header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(213, 213, 213, 1) 100%
+  );
+  box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+}
+
+.App__dropdown {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  background: rgb(247, 247, 247);
+  background: linear-gradient(
+    270deg,
+    rgba(247, 247, 247, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.App__stats_header {
+  width: 98%;
+  border-radius: 2px;
+}
+
+.App__side_left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  border-radius: 5px;
+  box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(213, 213, 213, 1) 100%
+  );
+}
+
+.App__side_right {
+  flex: 0.3;
+  border-radius: 5px;
+  box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  -webkit-box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(213, 213, 213, 1) 100%
+  );
+}
+
+.App__stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App__mapstats {
+  border-radius: 20px;
+}
+
+@media (max-width: 800px) {
+  .test {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 566px) {
+  .App__stats {
+    display: flex;
+    flex-direction: column;
+  }
+  .App__header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
