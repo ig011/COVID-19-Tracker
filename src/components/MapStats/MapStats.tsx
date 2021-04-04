@@ -22,7 +22,7 @@ function MapStats(props: any) {
 
   if (Object.keys(props.countries).length > 2) {
     return (
-      <div className="MapStats" style={{ height: height }}>
+      <div className="MapStats">
         <MapContainer center={props.center} zoom={props.zoom}>
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

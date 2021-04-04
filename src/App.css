@@ -5,11 +5,18 @@
 
 .test {
   display: flex;
+  height: 100%;
   border-radius: 5px;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
 }
 
 .App__header {
   padding: 10px;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,11 +49,12 @@
 }
 
 .App__stats_header {
-  width: 98%;
+  width: 100%;
   border-radius: 2px;
 }
 
 .App__side_left {
+  height: 100%;
   display: flex;
   flex-direction: column;
   flex: 0.7;
@@ -64,6 +72,7 @@
 
 .App__side_right {
   flex: 0.3;
+  height: 100%;
   border-radius: 5px;
   box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
   -webkit-box-shadow: 3px 2px 8px 0px rgba(0, 0, 0, 0.57);
@@ -76,6 +85,10 @@
   );
 }
 
+.App__side_right_card {
+  height: 99%;
+}
+
 .App__stats {
   display: flex;
   justify-content: space-between;
@@ -83,6 +96,7 @@
 
 .App__mapstats {
   border-radius: 20px;
+  height: 100%;
 }
 
 @media (max-width: 800px) {

@@ -10,7 +10,7 @@ You can run this web application by putting command in terminal
 npm start
 ```
 
-After that open your web browser and go to localhost:3000. This sould open **COVID-19-Tracker** App.
+After that open your web browser and go to https://localhost:3000. This should open **COVID-19-Tracker** Web App.
 
 # Used technologies
 
