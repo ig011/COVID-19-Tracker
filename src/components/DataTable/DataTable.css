@@ -1,8 +1,8 @@
 .table {
   scroll-behavior: smooth;
   margin-top: 20px;
-  overflow: auto;
-  height: 35vh;
+  overflow: scroll;
+  height: 40%;
   color: #6a5d5d;
 }
 

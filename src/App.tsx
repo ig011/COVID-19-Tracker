@@ -163,7 +163,7 @@ function App() {
             </div>
             <div className="App__side_right">
               <Card className="App__side_right_card">
-                <CardContent>
+                <CardContent className="App__side_right_card">
                   <h3>Live Cases by country</h3>
                   <DataTable data={tableData} />
                   <br />

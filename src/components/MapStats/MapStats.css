@@ -1,11 +1,11 @@
 .MapStats {
-  padding: 0.2rem;
-  height: 590px;
+  padding: 0.1rem;
+  height: 97%;
   border-radius: 10px;
   box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
 
 .MapStats .leaflet-container {
-  height: 99%;
+  height: 98.5%;
 }
