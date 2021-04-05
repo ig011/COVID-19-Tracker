@@ -20,4 +20,4 @@ Other technologies: **axios**, **spring**, **react-leaflet**
 
 # Screenshots
 
-![Main](/Screenshots/Main.png?raw=true "COVID-19-Tracker main app window")
+![main](/Screenshots/main.png?raw=true "COVID-19-Tracker Application")
