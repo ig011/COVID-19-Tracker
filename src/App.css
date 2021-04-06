@@ -3,10 +3,34 @@
   color: rgb(44, 44, 44);
 }
 
+@keyframes {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fcoronavirus%2Fcoronavirus_PNG46.png&f=1&nofb=1),
+    linear-gradient(rgb(20, 20, 20), rgb(60, 0, 0));
+  opacity: 0.99;
+  animation-name: fadeIn;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+
 .test {
   display: flex;
   height: 88%;
   border-radius: 5px;
+}
+
+.image-1 {
+  margin-left: 10px;
+  width: 5%;
+  height: 5%;
 }
 
 .App {
@@ -15,6 +39,10 @@
 }
 
 .App__header {
+  animation-name: slideInHeader;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: both;
   padding: 10px;
   height: 10%;
   display: flex;
@@ -46,6 +74,15 @@
     rgba(247, 247, 247, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
+}
+
+@keyframes slideInHeader {
+  from {
+    margin-top: -100%;
+  }
+  to {
+    margin-top: 0%;
+  }
 }
 
 .App__stats_header {

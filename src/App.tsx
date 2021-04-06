@@ -102,7 +102,13 @@ function App() {
         <div className="App" style={props}>
           <div className="App__header">
             <div>
-              <h1>COVID-19 Tracker</h1>
+              <h1>
+                COVID-19 Tracker
+                <img
+                  className="image-1"
+                  src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fcoronavirus%2Fcoronavirus_PNG46.png&f=1&nofb=1"
+                />
+              </h1>
               <strong>Last update:</strong>{" "}
               {convertToDate(currentInfo.data.updated)}
             </div>
